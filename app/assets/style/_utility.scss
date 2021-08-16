@@ -1,0 +1,27 @@
+// 【color】
+/* 主色 */
+.background-primary{background-color: $primary;}  
+.background-secondary{background-color: $secondary;}
+/* 字色 */
+.text-primary{color: $darkRed;}  
+.text-secondary{color: $primary;} 
+.text-light{color: $light;}
+/* 間距 */
+.mb-1{margin-bottom: 0.5rem;}  
+.mb-2{margin-bottom: 1rem;}  
+.mb-3{margin-bottom: 2rem;}  
+.mb-4{margin-bottom: 2.5rem;} 
+.mb-5{margin-bottom: 3.75rem;}  
+.mb-6{margin-bottom: 5rem;}
+.mb-s{margin-bottom: 4px;}
+/* 裝飾 */
+.font-italic{font-style: italic;}
+.font-unset{font-style: unset;}
+/* 字重 */
+.font-light{font-weight: 100;}  
+.font-normal{font-weight: 300;}  
+.font-median{font-weight: 500;}  
+.font-bord{font-weight: 700;}
+/* grid */
+.grid{margin: 0 auto;   max-width: 1110px;}
+.grid-m{margin: 0 auto; max-width: 730px;}

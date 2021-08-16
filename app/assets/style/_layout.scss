@@ -1,0 +1,100 @@
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 108px;
+}
+.header .logo{
+  margin-left: 88px;
+}
+.header ul{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 88px;
+}
+.header ul li{
+  padding-left: 64px;
+}
+.header h5{
+  color: white;
+}
+
+
+/* footer */
+.footer{
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.footer .item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.footer h3{
+  line-height: 48px;
+}
+.footer .content li{
+  margin-right: 48px;
+}
+.footer .social{
+  display: flex;
+  align-items: center;
+}
+.footer .social li{
+  margin-left: 32px;
+}
+.footer .tel{
+  display: flex;
+  align-items: center;
+}
+.footer .tel-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+}
+.footer .tel-icon img{
+  width: 36px;
+  height: 36px;
+}
+.footer .email{
+  display: flex;
+  align-content: center;
+  margin-bottom: 24px;
+}
+.footer .email-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+}
+.footer .email-icon img{
+  width: 40px;
+  height: 32px;
+}
+.footer .divider{
+  border-bottom: 1px  solid   #fff;
+}
+.footer .copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .copyright h6{
+  line-height: 21px;
+}
+.footer .copyright .provision{
+  display: flex;
+  align-items: center;
+}
+.footer .copyright .provision li{
+  margin-left: 48px;
+  line-height: 21px;
+}

@@ -1,0 +1,48 @@
+.faq-page.container {
+  max-width: 1110px;
+  margin: auto;
+  margin-top: 96px;
+  margin-bottom: 144px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+// .title {
+//   font-weight: 900;
+// }
+
+.page-title{
+  font-size: 48px;
+  padding-left: 16px;
+  margin-bottom: 60px;
+  line-height: 70px;
+  border-left: 8px solid #9F1213;;
+}
+
+.page-sub-title{
+  font-size: 32px;
+  margin-bottom: 36px;
+}
+
+.wrap-title{
+  width: initial;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.faq-list {
+  margin-bottom: 32px;
+}
+
+.faq-list .content{
+  margin-left: 8em;
+}
+
+// 螢幕小於768時
+@media (max-width: 768px) {
+  .faq-list .content{
+    margin-left: 4em;
+  }
+}
