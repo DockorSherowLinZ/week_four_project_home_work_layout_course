@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 108px);
-  background: url(https://github.com/DockorSherowLinZ/week_four_project_home_work_layout_course/blob/main/app/assets/images/banner.png?raw=true) center center;
+  background: url(../images/banner.png) center center;
 }
 .banner{
   display: flex;
@@ -43,8 +43,16 @@
 .content-image{
   display: flex;
   align-content: center;
+  justify-content: center;
   width: 100px;
   height: 100px;
+  
+}
+.content-image .material-icons-outlined{
+  font-size: 83.33px;
+  display: flex;
+  align-items: center;
+
 }
 .feature h2{
   font-weight: bolder;
@@ -66,26 +74,22 @@
 .classical .item2{
   flex-direction: row-reverse;
 }
-.classical .icon{
+.classical .icon {
   display: flex;
   align-items: center;
   margin-left: 32px;
   margin-right: 30px;
 }
-.classical .item3 .material-icons { 
-  font-size: 48px; 
-}
 .classical a img{
   width: 635px;
 }
-.classical .icon img{
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
+.classical .material-icons , .classical  .material-icons-outlined {
+    font-size: 48px;
+    margin-right: 10px;
 }
 /* cobranding */
 .cobranding{
-  background: url(https://github.com/DockorSherowLinZ/week_four_project_home_work_layout_course/blob/main/app/assets/images/bg.png?raw=true) center center;
+  background: url(../images/bg.png) center center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 60px;
@@ -127,14 +131,14 @@
 }
 .cobranding .image1{
   background-repeat: no-repeat;
-  background: url(https://github.com/DockorSherowLinZ/week_four_project_home_work_layout_course/blob/main/app/assets/images/product-8.png?raw=true) center /cover;
+  background: url(../images/product-8.png) center /cover;
   width: calc(100vw - 0px);
   height: 455px;
   margin-right: 30px;
 }
 .cobranding .image2{
   background-repeat: no-repeat;
-  background: url(https://github.com/DockorSherowLinZ/week_four_project_home_work_layout_course/blob/main/app/assets/images/product-9.png?raw=true) center / cover;
+  background: url(../images/product-9.png) center / cover;
   width: calc(100vw - 0px);
   height: 455px;
 }
