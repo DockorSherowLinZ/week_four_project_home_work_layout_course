@@ -12,3 +12,35 @@ h1,h2,h3,h4,h5,h6,p{ line-height: 1.5; }
 // 字體大小
 h1{font-size: 4rem;}  h2{font-size: 3rem;}  h3{font-size: 2.25rem;}  h4{font-size: 1.5rem;}  h5{font-size: 1.25rem;}  h6{font-size: 1rem;}  p{font-size: 0.875rem;}  .font-lg{font-size: 4.5rem;}
 
+
+input:not([type=checkbox]){
+  border: 1px solid #000;
+  width: max( 100px , 730px );
+  height: 50px;
+  background: $secondary;
+  padding-left: 16px;
+}
+
+input[type=checkbox]{
+  position: relative; margin-right: 12px;
+  top: -3px;
+}
+input[type=checkbox]::before,
+input[type=checkbox]::after {
+  content: '';
+  position: absolute;
+}
+input[type=checkbox]::before {
+  width: 18px ; height: 18px;
+  border: 1px solid rgb(0, 0, 0);
+  background: $secondary;
+}
+input[type=checkbox]:checked::after {
+  left: 6px;
+  top: 2px;
+  border: 3px solid rgb(31, 201, 31);
+  border-top: none;
+  border-left: none;
+  width: 7px ; height: 12px;
+  transform: rotate(45deg);
+}
