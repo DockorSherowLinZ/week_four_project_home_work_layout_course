@@ -1,3 +1,15 @@
+@mixin pad {
+  @media (max-width: 768px) {
+      @content;
+  }
+}
+@mixin phone {
+  @media (max-width: 540px) {
+      @content;
+  }
+}
+
+
 // 【color】
 /* 主色 */
 .background-primary{background-color: $primary;}  
