@@ -485,10 +485,7 @@ input[type=checkbox]:checked::after {
 .cobranding ul {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(540px,1fr));
-  gap: 30px; */ }
+  display: flex; }
 
 .cobranding ul li {
   display: -webkit-box;
