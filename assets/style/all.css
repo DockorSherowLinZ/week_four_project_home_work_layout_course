@@ -689,11 +689,22 @@ input[type=checkbox]:checked::after {
 .faq-list {
   margin-bottom: 32px; }
 
+.title {
+  font-weight: bolder; }
+
 .faq-list .content {
   margin-left: 8em; }
 
 @media (max-width: 768px) {
   .faq-list .content {
     margin-left: 4em; } }
+
+@media (max-width: 540px) {
+  .faq-page .page-title {
+    font-size: 28px; }
+  .faq-page .page-sub-title {
+    font-size: 20px; }
+  .faq-page .faq-list h5 {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=all.css.map */
