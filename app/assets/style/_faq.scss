@@ -7,11 +7,6 @@
   padding-right: 40px;
 }
 
-
-// .title {
-//   font-weight: 900;
-// }
-
 .page-title{
   font-size: 48px;
   padding-left: 16px;
@@ -36,13 +31,34 @@
   margin-bottom: 32px;
 }
 
+.title {
+  font-weight: bolder;
+}
+
 .faq-list .content{
   margin-left: 8em;
+  @include pad {
+    
+  }
 }
 
 // 螢幕小於768時
 @media (max-width: 768px) {
   .faq-list .content{
     margin-left: 4em;
+  }
+}
+
+@media (max-width:540px) {
+  .faq-page {
+    .page-title {
+      font-size: 28px;
+    }
+    .page-sub-title {
+      font-size: 20px;
+    }
+    .faq-list h5 {
+      font-size: 16px;
+    }
   }
 }
