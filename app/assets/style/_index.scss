@@ -23,6 +23,7 @@
   margin:initial;
   text-align: right;
 }
+
 /* feature */
 .feature{
   text-align: center;
@@ -60,6 +61,7 @@
 .content-title h4{
   margin-bottom: 8px;
 }
+
 /* classical */
 .classical{
   text-align: center;
@@ -87,6 +89,7 @@
     font-size: 48px;
     margin-right: 10px;
 }
+
 /* cobranding */
 .cobranding{
   background: url(../images/bg.png) center center;
@@ -102,9 +105,6 @@
 }
 .cobranding ul{
   display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(540px,1fr));
-  gap: 30px; */
 }
 .cobranding ul li{
   display: flex;
@@ -142,6 +142,7 @@
   width: calc(100vw - 0px);
   height: 455px;
 }
+
 /* recommendation */
 .recommendation h2{
   text-align: center;
@@ -173,6 +174,7 @@
 .recommendation .custom .time{
   color: #DEE2E6;
 }
+
 /* contact */
 .contact{
   text-align: center;
